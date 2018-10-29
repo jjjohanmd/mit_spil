@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+
+#game {
+    position: relative;
+}
+
+#game_elements {
+    position: relative;
+}
+
+
+#game_background {
+    background-image: url(/pics/Artboard1.png);
+    background-size: 100%;
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+
+}
+
+#forgrund {
+    background-image: url(/pics/forgrund.svg);
+    background-size: 100%;
+    width: 50vw;
+    height: 32vw;
+    top: 30vw;
+    left: 40vw;
+    position: absolute;
+    z-index: 2;
+
+}
